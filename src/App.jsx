@@ -1,12 +1,12 @@
 import React from 'react'
-import Routes from './config/routes'
+import Navigation from './config/Navigation'
 import Header from './components/header/header'
 import Home from './components/Home/home'
 
 const App = () => {
   return (
     <div>
-      <Routes/>
+      <Navigation/>
       
       {/* <Header/>
       <Home/> */}
